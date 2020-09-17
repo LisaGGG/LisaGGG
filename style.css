@@ -1,0 +1,109 @@
+html{
+  font-family: "century-old-style-std", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  display: block;
+  width: 100%;
+}
+
+.header a{
+  text-decoration: none;
+  color:white;
+  font-size: 12pt;
+  line-height: 16.5pt;
+}
+
+.header a:hover{
+  color:#848689;
+
+}
+
+.line {
+  height: 0px;
+  background-color: #ff7c17;
+}
+
+.container{
+  margin: 40px 45px;
+}
+
+.container a{
+  text-decoration: none;
+  color: white;
+}
+
+.container a:hover{
+  color: #848689;
+}
+
+.index{
+  margin: 40px 0;
+  width: 300px;
+  float: left;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 12pt;
+  line-height: 16.5pt;
+  height: 200px;
+}
+
+.letter{
+  color:white;
+}
+
+.box{
+  margin: 180px 0px -160px 45px;
+  width: 300px;
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 730px;
+  font-size: 12pt;
+  line-height: 16.5pt;
+}
+
+.box, .index a{
+  color: black;
+  text-decoration: none;
+}
+
+.box, .index a:hover{
+  color: white;
+}
+
+.text{
+  float: left;
+  font-size: 40pt;
+  line-height: 51pt;
+  width: 1200px;
+  margin-left: 300px;
+  overflow-y: auto;
+  color: white;
+}
+
+.text a {
+  color: white;
+}
+
+.text a:hover {
+  cursor: text;
+  color:#333;
+  text-decoration: underline;
+}
