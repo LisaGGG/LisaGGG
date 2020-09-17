@@ -24,9 +24,6 @@ body {
   line-height: 16.5pt;
 }
 
-.header a:hover{
-  color:#848689;
-
 }
 
 .line {
@@ -41,10 +38,6 @@ body {
 .container a{
   text-decoration: none;
   color: white;
-}
-
-.container a:hover{
-  color: #848689;
 }
 
 .index{
@@ -104,6 +97,4 @@ body {
 
 .text a:hover {
   cursor: text;
-  color:#333;
-  text-decoration: underline;
 }
